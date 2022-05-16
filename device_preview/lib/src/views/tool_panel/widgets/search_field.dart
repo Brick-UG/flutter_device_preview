@@ -79,8 +79,8 @@ class _ToolbarSearchFieldState extends State<ToolbarSearchField> {
             border: InputBorder.none,
             prefixIcon: const Icon(Icons.search),
             suffix: InkWell(
-              child: const Icon(Icons.close),
               onTap: _clear,
+              child: const Icon(Icons.close),
             ),
           ),
         ),
