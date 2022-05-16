@@ -6,9 +6,9 @@ void main() {
     DevicePreview(
       enabled: true,
       builder: (context) => const MyApp(),
-      tools: [
+      tools: const [
         ...DevicePreview.defaultTools,
-        const DevicePreviewScreenshot(),
+        DevicePreviewScreenshot(),
       ],
     ),
   );
